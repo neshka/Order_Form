@@ -7,13 +7,15 @@
 <body>
 <h1>You can order here your favourite donuts!</h1>
 <h3>How many of them you wish to order?</h3>
-Classic £0.50<br>
-<input type="text">
-<br><br>
-Gluten free £0.75<br>
-<input type="text">
-<br><br>
-<input type="submit">
+<form action="order.php" method="post">
+    Classic £0.50
+    <input type="text" name="classic">
+    <br><br>
+    Gluten free £0.75
+    <input type="text" name="glutenfree">
+    <br><br>
+    <input type="submit" value="Send order">
+</form>
 </body>
 </html>
 
