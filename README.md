@@ -1,2 +1,2 @@
 # Order_Form
-PHP with MySQL
+PHP $_POST 
